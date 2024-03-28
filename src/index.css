@@ -1,7 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Quicksand';
 }
 body {
     background-color: #e4e4e4;
@@ -72,3 +76,81 @@ body {
     line-height: 1;
     letter-spacing: 5px;
 }
+.blog-details p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-top: 15px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+/* not found */
+
+.not-found {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 60px 16px;
+}
+.not-found h2 {
+    font-size: 3rem;
+    color: #ffc0cb;
+    line-height: 1;
+    letter-spacing: 5px;
+}
+.not-found p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+.not-found a {
+    text-decoration: none;
+    color: #fa0;
+}
+
+/* create form */
+
+.create {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+
+.create h2 {
+    text-align: center;
+    font-size: 2rem;
+}
+.create label {
+    text-align: left;
+    font-size: 1.2rem;
+    font-family: bold;
+    display: block;
+}
+.create input, .create textarea {
+    width: 100%;
+    padding: 6px 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    display: block;
+}
+.create button {
+    background: hsl(127, 95%, 44%);
+    color: #fff;
+    border: 0;
+    padding: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .delete {
+    background: #d90645;
+    color: #fff;
+    border: 0;
+    margin: 10px;
+    font-size: 1rem;
+    box-shadow:  2px 4px 5px rgba( 0 , 0, 0, 0.5 );
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+  }

@@ -9,7 +9,7 @@ export default function BlogList({ blogs, title}) {
               <div className='blog-lists' key={blog.id}>
                   <Link to={`/blogs/${blog.id}`}>
                   <h2>{blog.title}</h2>
-                      <p>{blog.body}</p>
+                      <p>{blog.body.substring(0,192)}...</p>
                     </Link>
               </div>
           ))}
