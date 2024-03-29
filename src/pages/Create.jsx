@@ -5,6 +5,8 @@ export default function Create() {
   const [ title, setTitle ] = useState('')
   const [body, setBody] = useState('')
   const history = useHistory()
+
+  
   const handleClick = (e) => {
     e.preventDefault()
     const blog = { title, body }

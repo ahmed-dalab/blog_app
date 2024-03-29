@@ -8,11 +8,11 @@
     font-family: 'Quicksand';
 }
 body {
-    background-color: #e4e4e4;
+    background-color: #fff;
 }
 /* Navbar */
 .header {
-    background: #ffcdd5;
+    background: #b3b3ff;
     padding: 10px;
     display: flex;
     justify-content: space-between;
